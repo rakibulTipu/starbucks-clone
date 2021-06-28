@@ -1,0 +1,151 @@
+/* announcements section */
+.announcements {
+  margin-bottom: 32px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8e8e3;
+}
+.announcements .paragraph {
+  max-width: 60%;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  text-align: center;
+  color: #000000;
+}
+/* rewards section */
+.rewards,
+.chill,
+.info-image,
+.celebration {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 32px;
+}
+.rewards .left-side-div,
+.chill .right-side-div,
+.celebration .left-side-div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rewards .left-side-div .text-title,
+.chill .right-side-div .chill-title {
+  color: #1e3932;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.rewards .left-side-div .free-text,
+.chill .right-side-div .chill-text {
+  color: #1e3932;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.rewards .right-side-div,
+.chill .left-side-div,
+.celebration .right-side-div {
+  width: 50%;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+/* chill section */
+.chill .right-side-div .chill-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1e3932;
+  letter-spacing: 8px;
+  line-height: 1.2;
+}
+.chill .right-side-div .chill-text {
+  text-align: center;
+  color: #1e3932;
+  font-size: 1.5rem;
+  padding: 0 65px;
+  font-weight: 500;
+}
+/* info image */
+
+.info-image .left-side-div {
+  width: 49%;
+  margin-bottom: 0;
+}
+.info-image .right-side-div {
+  width: 49%;
+  margin-bottom: 0;
+}
+.info-left,
+.info-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4e9e2;
+}
+.info-right h1 {
+  margin-top: 30px;
+}
+.info-left h1,
+.info-right h1 {
+  margin-bottom: 30px;
+  color: #1e3932;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.info-left p,
+.info-right p {
+  margin-bottom: 30px;
+  color: #1e3932;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  padding: 0 88px;
+  text-align: center;
+}
+
+.info-left button,
+.info-right button {
+  margin-bottom: 50px;
+}
+/* celebration */
+.celebration {
+  background-color: #d4e9e2;
+}
+.celebration .left-side-div h1 {
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.celebration .left-side-div p {
+  color: #000000;
+  font-size: 1.2rem;
+  line-height: 1.75;
+  text-align: center;
+  padding: 0 98px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+/* information text */
+.information-text {
+  width: 700px;
+  margin: 0 auto;
+}
+.first-text {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: #000000;
+}
+.second-text {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000000;
+}

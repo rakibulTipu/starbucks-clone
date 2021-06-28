@@ -1,0 +1,67 @@
+footer {
+  box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  position: relative;
+}
+.footer-container {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-container li {
+  list-style: none;
+}
+.footer-container a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.56);
+}
+.footer-container .common {
+  margin-top: 40px;
+  padding-left: 40px;
+}
+.footer-container .common h1 {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+.footer-container .common .about {
+  margin: 25px 0;
+}
+/* lasst */
+.footer-last {
+  box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+
+  position: relative;
+}
+.social-icon {
+  max-width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-icon i {
+  font-size: 1.8rem;
+  margin-top: 35px;
+}
+.privacy-list {
+  display: flex;
+  justify-content: space-around;
+  max-width: 85%;
+  margin-top: 35px;
+}
+.privacy-list li {
+  list-style: none;
+  font-size: 1.1rem;
+}
+.privacy-list li span {
+  padding-left: 1.4rem;
+}
+.main-footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+.main-footer span {
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 1.1rem;
+}
